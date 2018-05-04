@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <script>
+        var url_string = window.location.href
+        var url = new URL(url_string);
+        var state = url.searchParams.get("state");
+        document.write("State is: " + state);
+    </script>
+
+</body>
+
+</html>
